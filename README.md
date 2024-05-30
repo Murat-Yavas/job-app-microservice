@@ -20,3 +20,7 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 -   For Zipkin dependency start docker and in any terminal run that command:
 
     docker run -d -p 9411:9411 openzipkin/zipkin
+-   To set up Spring Cloud Config Server add a new repository called
+    application-config to github and add the url of this repository to
+    application.properties of the configServer file.
+    
